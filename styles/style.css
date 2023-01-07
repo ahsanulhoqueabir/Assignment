@@ -29,8 +29,7 @@ header{
 }
 .header-desc h1{
 	font-size: 60px;
-	line-height: 60px;
-	
+	line-height: 60px;	
 }
 .header-desc p{
 	font-size: 20px;
@@ -49,6 +48,8 @@ header{
 	border-radius: 5px;
 }
 /* Main body Starts from here */
+
+
 /* First div of Body Starts from here */
 .failures{
 	display:flex;
@@ -67,9 +68,7 @@ header{
 }
 .failures-right{
 	width:50%;
-	padding-top: 100px;
-	
-	
+	padding-top: 100px;	
 }
 .failures-right h2{
 	font-size:50px;
@@ -147,12 +146,59 @@ header{
 	padding: 10px 20px;
 	border-radius: 5px;
 }
-/*footer Starts from here */
-footer{
-	background: #0e1111;
+/* Fourth div of Body Starts from here */
+.my-blog{
+	text-align: center;
+	padding: 35px 0px;
+	margin: 0px 300px;
+}
+hr{
+	border: outset;
+    height: 3px;
+    background: black;
+}
+.blog{
+	display: flex;
+	gap: 25px;
+	margin: 10px 120px -90px 120px;
+}
+.blog-img{
+	width: 50%;
+	text-align: center;
+}
+.blog-img img{
+	width:100%;
+	
+}
+.blog-desc{
+	width: 50%;
+	text-align: justify;
+	font-size: 22px;
+	line-height: 26px;	
+}
+.blog-desc h1{
+	line-height: 40px;
+	padding-bottom:10px;
+}
+.blog-btn{
+	margin: 35px 0;
+	font-size: 26px;
+	background:teal ;
 	color:white;
-	height:330px;
-	padding: 100px;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+/*footer Starts from here */
+.wave{
+	margin-bottom:-5px;
+}
+footer{
+	background: #273036;
+	color:white;
+	height:300px;
+	padding: 80px;
 }
 .footer{
 	display: flex;
@@ -191,6 +237,7 @@ footer{
 	border: 2px solid white;
 	padding: 10px 20px;
 	border-radius: 5px;
+	color:white;
 }
 .subscribe{
 	margin: 22px 0px;
