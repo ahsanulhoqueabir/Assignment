@@ -116,7 +116,9 @@ header{
 	padding: 20px 0;
 }
 .plan-details-item p{
-	font-size: 20px;
+	font-size: 22px;
+	color: gray;
+	font-weight: 400;
 	
 }
 /* Third div of Body Starts from here */
@@ -173,12 +175,12 @@ hr{
 .blog-desc{
 	width: 50%;
 	text-align: justify;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 26px;	
 }
 .blog-desc h1{
 	line-height: 40px;
-	padding-bottom:10px;
+	padding:15px 0;
 }
 .blog-btn{
 	margin: 35px 0;
